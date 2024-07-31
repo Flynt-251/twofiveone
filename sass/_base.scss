@@ -1,0 +1,45 @@
+.header {
+    background-color: var(--navbar-background);
+    font-size: 18pt;
+    padding: 30px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+
+    .navLinks {
+        font-style: normal;
+        color: var(--light-subtext);
+        margin-left: 18px;
+        text-decoration: none;
+        transition: 0.3s;   
+
+        &:hover {
+            color: var(--subtext);
+        }
+    }
+
+    #navLanding {
+        font-style: bold;
+        color: var(--text);
+        margin: 0 24px 0 12px;
+    }
+}
+
+.footer {
+    background-color: var(--navbar-background);
+    font-size: 18pt;
+    padding: 20px 0;
+    width: 100%;
+
+    // img {
+    //     padding: 0 0 0 30px;
+    // }
+    
+    p {
+        padding-left: 50px;
+    }
+
+    a {
+        color: var(--text);
+    }
+}

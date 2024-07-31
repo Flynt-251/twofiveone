@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% set page = get_page(path="about.md") %}
+
+{% block content %}
+
+<section class="reading-page">
+    <div class="container">
+            {{ page.content | safe }}
+    </div>
+</section>
+
+{% endblock %}

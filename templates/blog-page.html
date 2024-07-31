@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<section class="reading-page">
+    <h1>{{ page.title }}</h1>
+    <p class="page-metadata">{{ page.day }}/{{ page.month }}/{{ page.year }} | {{ page.reading_time }} minutes | {{ page.word_count }} words</p><br>
+    {{ page.content | safe }}
+</section>
+
+{% endblock %}

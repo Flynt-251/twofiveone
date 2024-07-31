@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+
+<section class="introduction">
+    <div class="container-splash">
+        <img src="/images/crane-spectrum.png" alt="PolyCrane">
+         <!-- <div id="intro-image-container"></div> -->
+        <h1>FINN MCGOLDRICK.</h1>
+        <ul>
+            <li>Nerd Stuff.</li>
+            <li>Gaming.</li>
+            <li>Tech.</li>
+        </ul>
+    </div>
+</section>
+
+<section class="education">
+    <div class="container">
+        <img src="/images/warwick-wmg-cropped.jpg" alt="Warwick WMG Building (Credit: Yiming Ma on Unsplash)">
+        <h1>FOSTERING COMMUNITY.</h1>
+        <p>An active contributor to the University community, and a determined learner in their department.</p>
+        <ul>
+            <li>Studying M.Eng. Computer Science at the University of Warwick.</li>
+            <li>Gaming Coordinator for UWCS.</li>
+        </ul>
+        <p class="credit">Image Credit: Yiming Ma on <a href="https://unsplash.com/photos/a-river-running-through-a-lush-green-park-next-to-a-tall-building-gBeOKHAp1S4?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash">Unsplash ↗</a></p>
+    </div>
+</section>
+
+<section class="programming">
+    <div class="container">
+        <img src="/images/keyboard-banner.jpg" alt="Keyboard">
+        <h1>FUNDAMENTALS FIRST, LANGUAGES SECOND.</h1>
+        <p>Core understanding in many paradigms, including functional, declarative, object-oriented, and, of course, procedural.
+        </p>
+        <ul>
+            <li>Experience in a diverse range of languages and technologies, including Haskell, Java and MySQL to name a few.
+            </li>
+        </ul>
+    </div>
+</section>
+
+<section class="design">
+    <div class="container">
+        <img src="/images/design-screen.jpg" alt="Design Software on a laptop screen">
+        <h1>SIMPLE DESIGNS.</h1>
+        <p>History of logos and design schemes that have been put into production. Designs that are easy on the eyes, and layouts that read as clear as daylight.</p>
+        <ul>
+            <li>Experience with web design and vector graphics.</li>
+        </ul>
+    </div>
+</section>
+
+<section class="actions">
+    <div class="desktop-nav">
+        <table>
+            <tr>
+                <th class="landing-footer-header">LEARN MORE ABOUT WHAT I DO</th>
+                <th class="landing-footer-header">SEE WHAT'S NEW WITH ME</th>
+                <th class="landing-footer-header">LOOK AT MY PORTFOLIO</th>
+            </tr>
+            <tr>
+                <td class="landing-footer-link"><a href="{{ get_url(path='@/about.md') }}">ABOUT ME ↗</a></td>
+                <td class="landing-footer-link"><a href="{{ get_url(path='@/blog/_index.md') }}">BLOG ↗</a></td>
+                <td class="landing-footer-link"><a href="{{ get_url(path='@/projects/_index.md') }}">PROJECTS ↗</a></td>
+            </tr>
+        </table>
+    </div>
+    <div class="mobile-nav">
+        <table>
+            <tr><td><a href="{{ get_url(path='@/about.md') }}">ABOUT ME ↗</a></td></tr>
+            <tr><td><a href="{{ get_url(path='@/blog/_index.md') }}">BLOG ↗</a></td></tr>
+            <tr><td><a href="{{ get_url(path='@/projects/_index.md') }}">PROJECTS ↗</a></td></tr>
+        </table>
+    </div>
+</section>
+</section>
+
+
+{% endblock content %}

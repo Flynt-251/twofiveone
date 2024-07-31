@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Flynt251</title>
+    <link rel="icon" href="/images/icon.png">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <section class="header">
+        <div class="container">
+            <a href="/" class="navLinks" id="navLanding"><b>FLYNT251</b></a>
+            
+            <a href="/about" class="navLinks">ABOUT</a>
+            <a href="{{ get_url(path='@/blog/_index.md') }}" class="navLinks">BLOG</a>
+            <a href="{{ get_url(path='@/resources/_index.md') }}" class="navLinks">RESOURCES</a>
+            <a href="{{ get_url(path='@/projects/_index.md') }}" class="navLinks">PROJECTS</a>
+            
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            {% block content %} {% endblock %}
+        </div>
+    </section>
+
+
+    <section class="footer">
+        <div class="container">
+            <!-- <img src="/images/crane-spectrum.png" alt="PolyCrane" width="200" height="200"> -->
+            <p><b>© FINN MCGOLDRICK 2024</b><br><br>
+            known as flynt251 on most platforms.<br><br>
+            Powered by <a href="https://getzola.org">Zola ↗</a></p>
+        </div>
+    </section>
+</body>
+
+
+
+</html>

@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<section class="reading-page">
+    <div class="container">
+        <h1>RESOURCES.</h1>
+        <p>About to come to Warwick? Here are some info pages that will link you to some really helpful resources. There will be pages for all core CS modules, plus CS140 and CS141, otherwise known as Computer Security and Functional Programming. Each page will also have my overall thoughts for that module, including teaching, coursework and exam content.</p>
+        <p><b>Note:</b> You won't find notes written by me on these pages, as I tend to handwrite notes and have been told my handwriting is rather hard to read.</p>
+    </div>
+    <br>
+
+    <ul class="page-listing">
+        {% for page in section.pages %}
+        <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
+        {% endfor %}
+    </ul>
+</section>
+
+{% endblock %}

@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<section class="reading-page">
+    <div class="container">
+        <h1>BLOG.</h1>
+        <p>This is my corner of the internet where I like to yap about tech I like. Here you'll find info about old electronics, programming stories, PC building, and the occasional IRL story.</p>
+        <p>I do this purely to get my word out into the open, I don't aim to profit from this blog, so posts may vary in length, but will generally be roughly 1000 words, or about 5 minutes reading time. I also post occasional tech guides here for issues that may be a bit more obscure, or buried in decade-old forum posts.</p><br>
+    </div>
+
+    <ul class="page-listing">
+        {% for page in section.pages %}
+        <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+        <p class="item-subtext">{{ page.day }}/{{ page.month }}/{{ page.year }}</p></li>
+        {% endfor %}
+    </ul>
+</section>
+
+{% endblock %}
