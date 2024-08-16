@@ -27,6 +27,8 @@ I also collect a lot of nifty tech! In particular, I'm interested in PC building
 
 You can find me on most platforms as Flynt or Flynt251. If you're interested in the work I've done (and what I'm doing with UWCS), you can check out my [GitHub](https://github.com/flynt-251)!
 
+Alternatively, you can send me an email at [finn.mcgoldrick@twofiveone.xyz](mailto:finn.mcgoldrick@twofiveone.xyz).
+
 <br>
 
 *We always say "Hello World", but are we always happy to see the world as it is? Let's create a world that we can be happy to say hello to.*

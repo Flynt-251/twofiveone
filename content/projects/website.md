@@ -3,6 +3,8 @@ title = "This Website"
 description = "My first statically generated website!"
 +++
 
+The source code for this website is available on [GitHub](https://github.com/flynt-251/twofiveone).
+
 Although I've spent time working with components of web development in the past, this website represents my first attempt at bringing something into production myself. My goal was to put together a simple website where I can discuss my University course and yap about tech, I didn't want to put anything fancy in just yet.
 
 ## So what's this for?
