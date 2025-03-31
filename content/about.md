@@ -4,7 +4,7 @@ template="about.html"
 
 # HI. I'M FINN.
 
-I'm a computer science student, an executive committee member for a student society, and a tech nerd.
+I'm a computer science student, an active member of the Warwick student community, and a tech nerd.
 
 ## Study
 
@@ -14,10 +14,11 @@ One of my most recent projects was writing an essay in which I compiled research
 
 ## Involvement in the Student Community
 
-I work with the University of Warwick Computing Society, or [UWCS](https://uwcs.co.uk) for short, as a Gaming Coordinator. I work with other members of its executive committee to deliver regular gaming events to Warwick's student community, including our weekly Friday Night Gaming and our termly LAN parties that last an entire weekend!
-However, gaming events are not the only thing I work on, as I'm also helping with Warwick's upcoming hackathon, known as WHACK, alongside other social and academic events hosted by UWCS.
+I've worked with the University of Warwick Computing Society, or [UWCS](https://uwcs.co.uk) for short, as a Gaming Coordinator. I work with other members of its executive committee to deliver regular gaming events to Warwick's student community, including our weekly Friday Night Gaming and our termly LAN parties that last an entire weekend!
 
-Along with my work in UWCS, I've also worked as a mentor in Warwick Coding Society, teaching Python to other students who learn programming as part of their course.
+As part of this role, I've helped raise over £1000 for SpecialEffect in [Warwick Speedrunning 2025](https://warwickspeed.run). I even did a run myself! I've additionally been a helper for WHACK 2025, and a Student Ambassador for Warwick's Department of Computer Science.
+
+I've also worked as a mentor in Warwick Coding Society, teaching Python to other students who learn programming as part of their course.
 
 ## Tech
 
