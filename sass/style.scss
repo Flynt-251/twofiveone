@@ -48,6 +48,21 @@ body {
         text-decoration: underline;
         color: var(--text);
     }
+
+    .katex-html {
+        font-size: 15pt;
+        word-wrap: break-word;
+    }
+
+    code {
+        span {
+            font-size: 12pt;
+        }
+    }
+    .language-sql {
+        font-size: 12pt;
+        padding: 6px;
+    }
 }
 
 .reading-page {

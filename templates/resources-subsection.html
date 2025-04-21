@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<section class="reading-page">
+    <div class="container">
+        <h1>{{ section.title }}</h1>
+        {{ section.content | safe }}
+    </div>
+    <br>
+
+    <ul class="page-listing">
+        {% for page in section.pages %}
+        <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
+        {% endfor %}
+    </ul>
+</section>
+
+{% endblock %}
