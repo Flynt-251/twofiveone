@@ -69,7 +69,7 @@ $\\{x_1,x_2,...,x_n : condition(x_1,...,x_n)\\}$
 
 On the left are our desired variables, and the condition is essentially a boolean formula, as we saw before. DRC shares the same atomic and compound formulas as TRC.
 
-#### Examples
+### Examples
 
 #### Basic Select Query
 
