@@ -54,7 +54,13 @@ WHERE (
 
 ### Maximum of a set of values
 
-$\sigma_{A.msrp \geq B.msrp}(\rho_{A(msrp)}(\pi_{msrp}(GAMES)) \times \rho_{B(msrp)}(\pi_{msrp}(GAMES)))$
+$A \leftarrow \rho_{A}(\pi_{msrp}(GAMES))$
+
+$B \leftarrow \rho_{B}(\pi_{msrp}(GAMES))$
+
+$\pi_{msrp}(GAMES) \setminus \pi_A(A \bowtie_{A.msrp < B.msrp} B)$
+
+*Credit: Solution provided by Harm*
 
 ```sql
 SELECT MAX(msrp) FROM GAMES;
@@ -63,6 +69,8 @@ SELECT MAX(msrp) FROM GAMES;
 ### Non-existent attribute(s) in another table
 
 $\sigma_{REVIEWS.title = \omega}(GAMES ⟕ REVIEWS)$
+
+*Note that $\omega$ (little omega) is used to denote NULL.*
 
 ```sql
 SELECT * FROM GAMES d WHERE NOT EXISTS(
