@@ -32,7 +32,7 @@ This works, as if two vertices are mutually reachable, then these two vertices a
 
 ## Minimum Spanning Tree
 
-A **minimum spanning tree** is a tree based on a graph of the same vertices, and a subset of its edges, such that the weight of the remaining vertices is minimal.
+A **minimum spanning tree** is a tree based on a graph of the same vertices, and a subset of its edges, such that the weight of the remaining edges is minimal.
 
 We could try doing this by finding every possible spanning tree, then giving the one with the smallest possible value, but *Cayley's formula* tells us that there are $n^{n-2}$ possible spanning trees in any graph, so this is very inefficient. 
 
