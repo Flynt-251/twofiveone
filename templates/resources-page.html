@@ -2,6 +2,8 @@
 
 {% block content %}
 
+<script>document.title = "{{ page.title | safe }} - Flynt251"</script>
+
 <section class="reading-page">
     <h1>{{ page.title }}</h1>
     {{ page.content | safe }}
