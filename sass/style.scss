@@ -95,6 +95,11 @@ body {
         color: var(--subtext)
     }
 
+    table, td, th {
+        border: 2px solid var(--subtext);
+        border-collapse: collapse;
+    }
+
 }
 
 @media screen and (max-width: 860px) {
