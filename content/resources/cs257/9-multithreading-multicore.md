@@ -2,7 +2,7 @@
 title = "9 - Multithreading and Multicore Systems"
 +++
 
-We already mentioned how multicore systems are ubiquitous nowadays, here we look into systems other than SMP, and discuss multithreading, which you may already be somewhat familiar with, after studying [CS241](/cs241/os3-threads.md).
+We already mentioned how multicore systems are ubiquitous nowadays, here we look into systems other than SMP, and discuss multithreading, which you may already be somewhat familiar with, after studying [CS241](/resources/cs241/os3-threads).
 
 ## Threading the needle
 

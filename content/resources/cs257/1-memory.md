@@ -91,7 +91,7 @@ Any 'wasted' space may be due to fragmentation, inactive regions of data that ar
 
 ## All my memories, virtualised and contained on magnetic mediums
 
-**Virtual Memory** is hard disk space being used as RAM. If you're the type to tinker around with Linux (firstly, we should hang together :3), you may have created a "Swap Partition" before, this is the same thing as virtual memory. This allows us to temporarily unload process data that we don't need in memory currently, letting us decouple applications from memory limits and simplifying the process of loading up a program into a, well, process. I'd suggest taking a quick look over the notes for [memory management in CS241](/cs241/os7-memory.md), this is one of those moments where modules overlap in content (yippee).
+**Virtual Memory** is hard disk space being used as RAM. If you're the type to tinker around with Linux (firstly, we should hang together :3), you may have created a "Swap Partition" before, this is the same thing as virtual memory. This allows us to temporarily unload process data that we don't need in memory currently, letting us decouple applications from memory limits and simplifying the process of loading up a program into a, well, process. I'd suggest taking a quick look over the notes for [memory management in CS241](/resources/cs241/os7-memory), this is one of those moments where modules overlap in content (yippee).
 
 ### Mixed Management
 

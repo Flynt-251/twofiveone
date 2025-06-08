@@ -2,7 +2,7 @@
 title = "3 - Code Optimisation"
 +++
 
-One of the biggest questions we ask when writing code is *"How do we make it faster?"*, and usually we can answer that using information learnt in [CS260](/cs260/), but we can usually add some, shall we say, *hardware specific* changes. We can optimise code, broadly using at least one of the three following methods:
+One of the biggest questions we ask when writing code is *"How do we make it faster?"*, and usually we can answer that using information learnt in [CS260](/resources/cs260/), but we can usually add some, shall we say, *hardware specific* changes. We can optimise code, broadly using at least one of the three following methods:
 
 - **Algorithmic** - Basically reducing our time or memory complexity, again, see CS260.
 - **Code Refactoring** - Making minor changes to code, such that we're making better utilisation of resources.
@@ -166,7 +166,7 @@ __m128 vecC = _mm_add_ps(vecA, vecB);
 _mm_store_ps(c + i, vecC);
 ```
 
-**Multithreading** allows us to create multiple *threads* which can run across multiple processing cores, allowing us to process data more literally in parallel. Again, we will go into more detail about this later, plus this topic is covered in [CS241](/cs241/os3-threads.md), but this focusses on POSIX threads (also called pthreads), whereas this module uses OpenMP to allow for multithreading (which is easier to use, but is also more restrictive).
+**Multithreading** allows us to create multiple *threads* which can run across multiple processing cores, allowing us to process data more literally in parallel. Again, we will go into more detail about this later, plus this topic is covered in [CS241](/resources/cs241/os3-threads), but this focusses on POSIX threads (also called pthreads), whereas this module uses OpenMP to allow for multithreading (which is easier to use, but is also more restrictive).
 
 ```c
 #pragma omp parallel for
