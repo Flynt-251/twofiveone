@@ -2,7 +2,7 @@
 title = "9 - Governance, Regulation and Compliance"
 +++
 
-This is gonna be a boring section for most, as it's talking about the legal aspects of cyber security. Like it or not, there are standards we must follow so that we don't get ourselves thrown into jail. This is all wrapped up in the abbreviation **GRC**, or Governance, Regulation and Compliance. Even ignoring legality, because the motivation for attacks is often data-related, a data breach can have serious effects on a business, ranging from privacy violations for stakeholders, to severe financial losses.
+This is gonna be a boring section for most, as it's talking about the legal aspects of cyber security. Like it or not, there are standards we must follow so that we don't get ourselves thrown into jail. This is all wrapped up in the abbreviation **GRC**, or Governance, Risk Management and Compliance. Even ignoring legality, because the motivation for attacks is often data-related, a data breach can have serious effects on a business, ranging from privacy violations for stakeholders, to severe financial losses.
 
 It might not even be your fault that a breach occurs in your organisation. A **supply chain attack** is where an attack occurs on a third party service that you rely on. If something like Google services, or AWS were to get compromised, *a lot* of organisations would suffer losses. Though it wasn't an attack, just look at the Crowdstrike incident (Linux Supremacy once again :fire:).
 
