@@ -1,5 +1,5 @@
 +++
-title = "9 - Governance, Regulation and Compliance"
+title = "9 - Governance, Risk Assessment and Compliance"
 +++
 
 This is gonna be a boring section for most, as it's talking about the legal aspects of cyber security. Like it or not, there are standards we must follow so that we don't get ourselves thrown into jail. This is all wrapped up in the abbreviation **GRC**, or Governance, Risk Management and Compliance. Even ignoring legality, because the motivation for attacks is often data-related, a data breach can have serious effects on a business, ranging from privacy violations for stakeholders, to severe financial losses.
