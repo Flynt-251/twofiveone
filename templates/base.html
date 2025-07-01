@@ -30,14 +30,14 @@
     <link rel="stylesheet" href="/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Manrope:wght@200..800&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
 </head>
 
 
 <body>
     <section class="header">
         <div class="container">
-            <a href="/" class="navLinks" id="navLanding"><b>FLYNT251</b></a>
+            <a href="/" class="navLinks" id="navLanding" style="font-family: 'Merriweather';"><b>FLYNT251</b></a>
             
             <a href="/about" class="navLinks">ABOUT</a>
             <a href="{{ get_url(path='@/blog/_index.md') }}" class="navLinks">BLOG</a>
@@ -55,11 +55,12 @@
 
 
     <section class="footer">
-        <div class="container">
+        <div class="container footer-container">
             <!-- <img src="/images/crane-spectrum.png" alt="PolyCrane" width="200" height="200"> -->
-            <p><b>© FINN MCGOLDRICK 2025</b><br><br>
-            known as flynt251 on most platforms.<br><br>
-            Powered by <a href="https://getzola.org">Zola ↗</a></p>
+            <div class="footer-left">
+                <p><a href="{{ get_url(path='@/about.md') }}">About</a> | <a href="{{ get_url(path='@/blog/_index.md') }}">Blog</a> | <a href="{{ get_url(path='@/resources/_index.md') }}">Resources</a> | <a href="{{ get_url(path='@/projects/_index.md') }}">Projects</a> | Made with <a href="https://getzola.org">Zola</a><br></p>
+            </div>
+            <div class="footer-right" style="text-align: right; padding-right: 30px;"><p><b>© FINN MCGOLDRICK 2025</b></p></div>
         </div>
     </section>
 </body>

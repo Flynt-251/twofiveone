@@ -10,6 +10,24 @@
     $light-subtext-highlight: #333;
     $light-navbar-background: #ccc;
     
+    $dark-background: #121212;
+    $dark-text: #ffffff;
+    $dark-subtext: #aaa;
+    $dark-subtext-highlight: #ddd;
+    $dark-navbar-background: #222;
+
+    --light-background: #fafafa;
+    --light-text: #000000;
+    --light-subtext: #555;
+    --light-subtext-highlight: #333;
+    --light-navbar-background: #ccc;
+    
+    --dark-background: #121212;
+    --dark-text: #ffffff;
+    --dark-subtext: #aaa;
+    --dark-subtext-highlight: #ddd;
+    --dark-navbar-background: #222;
+
     --background: #{$light-background};
     --text: #{$light-text};
     --subtext: #{$light-subtext};
@@ -19,12 +37,18 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
+        $light-background: #fafafa;
+        $light-text: #000000;
+        $light-subtext: #555;
+        $light-subtext-highlight: #333;
+        $light-navbar-background: #ccc;
+        
         $dark-background: #121212;
         $dark-text: #ffffff;
         $dark-subtext: #aaa;
         $dark-subtext-highlight: #ddd;
         $dark-navbar-background: #222;
-        
+
         --background: #{$dark-background};
         --text: #{$dark-text};
         --subtext: #{$dark-subtext};

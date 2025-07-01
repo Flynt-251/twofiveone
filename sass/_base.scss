@@ -28,16 +28,29 @@
 
 .footer {
     background-color: var(--navbar-background);
-    font-size: 18pt;
-    padding: 20px 0;
+    font-size: 14pt;
+    padding: 4px 0;
     width: 100%;
+
+    .footer-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        .footer-left {
+            grid-column: 1;
+        }
+    
+        .footer-right {
+            grid-column: 2;
+        }
+    }
 
     // img {
     //     padding: 0 0 0 30px;
     // }
     
     p {
-        padding-left: 50px;
+        padding-left: 30px;
     }
 
     a {
