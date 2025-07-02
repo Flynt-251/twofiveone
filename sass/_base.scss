@@ -1,21 +1,26 @@
 .header {
     background-color: var(--navbar-background);
-    font-size: 18pt;
-    padding: 30px;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    z-index: 1;
+    // font-size: 18pt;
+    // padding: 30px;
+    // width: 100%;
+    // position: fixed;
+    // top: 0;
+    // z-index: 1;
 
     .navLinks {
         font-style: normal;
-        color: var(--light-subtext);
+        color: var(--dark-text);
         margin-left: 18px;
         text-decoration: none;
-        transition: 0.3s;   
+        transition: 0.3s;
+        font-size: 18pt;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+        transition-delay: 0.6s;
+        transition-property: opacity;
 
         &:hover {
-            color: var(--subtext);
+            color: var(--dark-subtext);
         }
     }
 
@@ -23,6 +28,53 @@
         font-style: bold;
         color: var(--text);
         margin: 0 24px 0 12px;
+    }
+
+    .navbox {
+        width: 110px;
+        height: 110px;
+        position: fixed;
+        margin: 30px;
+        background-color: var(--dark-background);
+        z-index: 1;
+        transition: all 0.7s cubic-bezier(0.25, 0.8, 0.25, 1);
+
+        #navLanding {
+            background: none;
+            color: inherit;
+            border: none;
+            padding: 0;
+            font: inherit;
+            cursor: pointer;
+            outline: inherit;
+            // position: absolute;
+            // top: 50%;
+            // left: 50%;
+            // -ms-transform: translate(-65%, -50%);
+            // transform: translate(-65%, -50%);
+            position: fixed;
+            margin: 15px;
+
+            img {
+                transition: transform 0.2s;
+    
+            }
+            
+            img:hover {
+                transform: scale(1.1);
+            }
+        }
+
+        ul {
+            list-style: none;
+            padding: 0 15px 0 0;
+            margin: 120px 0 0 10px;
+            visibility: hidden;
+
+            li {
+                margin: 10px 0;
+            }
+        }
     }
 }
 
@@ -44,10 +96,6 @@
             grid-column: 2;
         }
     }
-
-    // img {
-    //     padding: 0 0 0 30px;
-    // }
     
     p {
         padding-left: 30px;

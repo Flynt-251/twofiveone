@@ -68,6 +68,11 @@ body {
     margin: 0;
     text-decoration: none;
 
+    h1 {
+        margin: 0;
+        padding: 30px 0 10px 0;
+    }
+
     a {
         text-decoration: underline;
         color: var(--text);
@@ -96,8 +101,8 @@ body {
 }
 
 .reading-page {
-    width: 40em;
-    margin: 150px auto 100px auto;
+    width: 30em;
+    margin: 0 auto 100px auto;
     font-size: 16pt;
     text-align: justify;
 
@@ -171,26 +176,31 @@ body {
 }
 
 .page-listing {
+
     li {
         list-style: none;
         padding: 30px 24px;
-        margin: 20px 90px 20px 0;
+        margin: 20px 0 20px 0;
         background-color: var(--navbar-background);
-        border-radius: 24px;
     }
 
     a {
         text-decoration: none;
         color: var(--text);
         transition: 0.3s;
-        padding-left: 10px;
+        padding-left: 0;
         &:hover { color: var(--subtext); }
     }
 
     .item-subtext {
         padding: 0;
-        margin: 0 0 0 10px;
+        margin: 0;
         font-size: 12pt;
         color: var(--subtext);
     }
+}
+
+ul.page-listing {
+    padding: 0 !important;
+    margin: 0;
 }
