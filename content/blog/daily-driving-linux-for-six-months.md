@@ -3,7 +3,7 @@ title = "I've daily driven Linux for over six months. Here are my thoughts."
 date = "2025-05-04"
 +++
 
-![My laptop, showing the output of FastFetch and my browser, LibreWolf](/images/daily-driving-linux-for-six-months/laptop.jpg)
+![My laptop, showing the output of FastFetch and my browser, LibreWolf](/images/blog/daily-driving-linux-for-six-months/laptop.jpg)
 
 At the start of the academic year, I finally made the decision to switch to Linux. And if you want the short answer to how it's going, **I love it**. It's true what people say, you are now in control of your computer on Linux, and that serves as both a blessing and a curse. So in this post, I want to share with you the things I've learned, what I think about Linux now, and the next steps I'm going to take. I may even do a bi-yearly update on my usage if there's demand for it!
 
@@ -17,7 +17,7 @@ I *did* however, make a conscious choice of picking my desktop environment, KDE 
 
 The great thing about KDE Plasma is, it's highly customisable. Like, taskbars (or Panels, as they're called in Plasma) on any edge of the screen, widgets anywhere you like, an entire suite of custom animations, custom colours for windows, the list goes on. It puts Windows to shame! I personally take some inspiration from the [Avdan OS concept](https://youtu.be/tXFEiw1aJTw) with my panels, opting for three separate panels on the bottom of my screen, left for the "Start Menu" and system monitors, centre for apps like on Windows 11 and MacOS, and right for system tray and other widgets like media control. It may be a bit cursed, but I love it.
 
-![Screenshot collage of my panels](/images/daily-driving-linux-for-six-months/panels.png)
+![Screenshot collage of my panels](/images/blog/daily-driving-linux-for-six-months/panels.png)
 
 I have minimal experience with GNOME, and whenever I have used it, I haven't enjoyed it very much. I'm also aware that without the use of third party plugins, you can't really customise the desktop very much, which is a hard pass for me. Plus I'm not a fan of the top bar that persists on every screen: I'd like the ability to be able to collapse/hide it to make as much room as I can for whatever apps I'm using. This is a problem I have on Windows as well. Even though you can auto-hide the taskbar, the animation looks off, plus sometimes Windows will just completely reset the option! Plasma is in 2025 while Windows 11 is stuck in 2015.
 
@@ -33,7 +33,7 @@ Despite my hardships at times, I still *greatly* prefer Fedora over Windows 11. 
 
 And then of course, there's the gripes I have with Windows 11 that basically everyone else seems to have: the updates, the ads, and the AI. On Fedora, I can choose when to perform updates, I don't get reminders every 30 seconds to install important security updates, although I do still have to restart my system in order for updates to take effect, but this isn't too much of a hassle. Of course, since Fedora is FOSS, there are no ads, in comparison to Windows which has now decided to integrate pop-up ads into the OS... And I'm not going to talk about the AI side of things, other than I think it's entirely superfluous and ultimately provides a distraction from actually trying to improve the experience of the OS overall.
 
-![Obligatory neofetch, or rather, fastfetch](/images/daily-driving-linux-for-six-months/linux-desktop-screenshot.png)
+![Obligatory neofetch, or rather, fastfetch](/images/blog/daily-driving-linux-for-six-months/linux-desktop-screenshot.png)
 
 > By the way, if you like the wallpapers, you can get them here: <https://unsplash.com/collections/iEpaN-UrBOo>
 

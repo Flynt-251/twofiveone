@@ -47,7 +47,7 @@ Where $\Sigma_\epsilon$ and $\Gamma_\epsilon$ refer to each alphabet including $
 
 Again, it's probably easier when we have a visual representation of a PDA, so let's draw the one for $\{a^nb^n : n \in \mathbb{N}\}$
 
-![The corresponding PDA](/images/push-down-automaton-1.png)
+![The corresponding PDA](/images/resources/cs259/push-down-automaton-1.png)
 
 The notation $x, y \rightarrow z$ means "read $x$ from the input, then pop $y$, then push $z$". We could represent this automaton as pseudocode, this may make it a little easier to understand.
 

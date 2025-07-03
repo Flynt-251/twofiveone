@@ -5,7 +5,7 @@ date="2024-07-31"
 # tags=["PCs","linux"]
 +++
 
-![The ThinkPad X131e, in all its glory.](/images/thinkpad/thinkpad-x131e-banner.jpg)
+![The ThinkPad X131e, in all its glory.](/images/blog/thinkpad/thinkpad-x131e-banner.jpg)
 
 While at University, I've picked up the hobby of scouting out old electronics on eBay. For me, it's a bit of a therapeutic practice, and it's honestly more fun than shopping around for new tech which likely costs much more. Of course, I have bought the occasional thing here and there, and this post talks about my most recent impulse buy: A broken Lenovo ThinkPad X131e.
 
@@ -23,7 +23,7 @@ You can bypass the Supervisor Password by locating a security chip on the mother
 
 Now to address the other issue: the locked Windows account... by not addressing it! Let me explain. This laptop came installed with Windows 10, likely imposed on the last user who was using Windows 7 (which is what this system was originally bundled with). Furthermore, the primary storage on this machine was a 360GB hard disk drive, so this thing was slow. Very. Very. Slow. So, for a mere £30, I pulled that drive out, and replaced it with a 480GB SSD.
 
-![Swapping out the old hard drive for a new SSD](/images/thinkpad/hard-drive-swap.jpg)
+![Swapping out the old hard drive for a new SSD](/images/blog/thinkpad/hard-drive-swap.jpg)
 
 I also checked the original drive on another computer using a USB to SATA cable. Since the laptop had a locked account, it was not wiped at all, nor was it encrypted with BitLocker, so I could see *everything*. Let this be another reminder to always format your device before you sell them! You never know who will get their hands on your data! Anyway, I wiped the drive and will likely use it as an external drive, using a cheap enclosure.
 
@@ -35,7 +35,7 @@ To be honest, I had a bit of a struggle getting Linux running at a suitable spee
 
 Once I got Linux Mint installed, I tethered the laptop to my phone and installed the WiFi driver through the Driver Manager Application, which picked up and installed it automatically. Nice and easy! Once done, this laptop was ready to use.
 
-![Linux Mint with XFCE running on the ThinkPad](/images/thinkpad/neofetch-screenshot.png)
+![Linux Mint with XFCE running on the ThinkPad](/images/blog/thinkpad/neofetch-screenshot.png)
 
 ## Is it usable?
 

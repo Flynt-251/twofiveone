@@ -23,7 +23,7 @@ To further prevent bad things from happening, most OSs use **Dual Mode operation
 
 ## Kernels of all shapes, sizes and colours
 
-![Yellow and Red Corn Lot, photo by Markus Winkler](/images/corn.jpg)
+![Yellow and Red Corn Lot, photo by Markus Winkler](/images/resources/cs241/corn.jpg)
 
 Wait no, wrong kernel.
 

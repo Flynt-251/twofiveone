@@ -2,32 +2,26 @@
 template="about.html"
 +++
 
-# HI. I'M FINN.
+# Welcome to 251.XYZ!
 
-I'm a computer science student, an active member of the Warwick student community, and a tech nerd.
+Hi! I'm Flynt, a run-of-the-mill tech nerd and Computer Science student who cares a lot about making information and learning free, with an interest in writing stuff.
 
-## Study
+## What this website is for
 
-I'm currently studying at the University of Warwick, for an Integrated Masters degree in Computer Science. I've done work in a range of languages, including Python, Java, Haskell, C, and much more.
-My work is focussed on software engineering, but I also have interest in the sociology of the internet and system administration.
-Some of my work at university has included an essay about the effects of social media on the dissemination of vaccine misinformation, optimising C code with hardware instructions, and collaboration with colleagues to produce a traffic junction modeller.
+There are three main parts to this website: my blog, resources, and my projects. I like to talk about what avenues in tech I'm currently exploring in my blog, under resources, you'll find my notes and opinions on the Computer Science modules I've studied, and projects is where I talk about the programming projects I've carried out over the years.
 
-## Involvement in the Student Community
+## Technology, Community, Progress
 
-I've worked with the University of Warwick Computing Society, or [UWCS](https://uwcs.co.uk) for short, as a Gaming Coordinator, working with other members of its executive committee to deliver regular gaming events to Warwick's student community, including our weekly Friday Night Gaming and our termly LAN parties that last an entire weekend!
+In case you hadn't gathered already, I work with lots of **technology** as part of my degree and in my free time. I do things like install Linux onto old laptops, build computers, fix stuff, and develop tiny projects here and there just for fun. Again, you can read about this stuff in my [blog](/blog).
 
-As part of this role, I've helped raise over £1000 for SpecialEffect in [Warwick Speedrunning 2025](https://warwickspeed.run). I even did a run myself! I've additionally been a helper for [WHACK 2024](https://warwickhack.co.uk/), and a Student Ambassador for Warwick's Department of Computer Science.
+**Community** is especially important to me, which is why, as a student of the University of Warwick, I've done lots to be actively involved, including being a Gaming Coordinator for the UoW Computing Society, or [UWCS](https://uwcs.co.uk) for short. I've organised regular gaming nights, as well as termly LAN parties. On top of this, I helped organise [Warwick Speedrunning 2025](https://warwickspeed.run), where we raised over £1,000 for charity in just a weekend. I did also end up doing a speedrun of Mario Kart Wii in a maid dress... Other things I've done include code mentoring with Warwick Coding society, volunteering as a teaching assistant, and being the logo designer for WHACK 2024, Warwick's first own hackathon!
 
-I've also worked as a mentor in Warwick Coding Society, teaching Python to other students who learn programming as part of their course.
-
-## Tech
-
-I also collect a lot of nifty tech! In particular, I'm interested in PC building, and have built my own rig. I also like repurposing and refurbishing older tech in the hopes that it can be reused moving forward. I typically post about this sort of stuff on my blog, and will do my best to link to the resources I use in case you want to replicate anything you see (but I'm hardly a professional, always follow trusted guides!).
+And as for **progress**, this represents my support for open source software, which I believe can only benefit its users and stakeholders: anyone and everyone can work to improve a piece of software together, quickly patching vulnerabilities, adding new features easily, and ultimately giving users great levels of control.
 
 ## Get in touch
 
-I'm fairly active on my [GitHub](https://github.com/flynt-251), and if you'd like to know when I post to my blog, I make announcements on my [Bluesky](https://bsky.app/profile/flynt251.bsky.social). You can send me an email at [finn.mcgoldrick@twofiveone.xyz](mailto:finn.mcgoldrick@twofiveone.xyz).
+I'm fairly active on my [GitHub](https://github.com/flynt-251), and if you'd like to know when I post to my blog, I make announcements on my [Bluesky](https://bsky.app/profile/flynt251.bsky.social). You can send me an email at [flynt@twofiveone.xyz](mailto:flynt@twofiveone.xyz).
 
 <br>
 
-*We always say "Hello World", but are we always happy to see the world as it is? Let's create a world that we can be happy to say hello to.*
+*Let's make a world we're happy to say hello to.*

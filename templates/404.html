@@ -1,22 +1,20 @@
 {% extends "base.html" %}
 
+
 {% block content %}
 
+<style>
+    body {
+        background-image: url(/images/goose.jpg);
+        background-size: cover;
+    }
+</style>
 <section class="notice404">
     <div class="container">
         <h1>404</h1>
-        <h2>OOPS. CAN'T FIND THAT.</h2>
-        <a href="/">Go back to homepage ↗</a>
+        <h2>Sadly, there's nothing here. Have a goose instead.</h2>
+        <a href="/">Back to homepage -></a>
     </div>
-</section>
-
-<!-- <section class="footer" style="bottom: 0;">
-    <div class="container">
-        <img src="/svg/crane-light.svg" alt="PolyCrane" width="200" height="200">
-        <p><b>© FINN MCGOLDRICK</b><br><br>
-        known as flynt251 on most platforms.<br><br>
-        Powered by <a href="https://getzola.org">Zola ↗</a></p>
-    </div> -->
 </section>
 
 {% endblock %}

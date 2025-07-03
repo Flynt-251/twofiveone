@@ -7,7 +7,7 @@ This project is available on [GitHub](https://github.com/flynt-251/hexapawn.py),
 
 This is a relatively small, just-for-fun project I made at the start of my A-Levels. It was inspired by a video about the hexapawn game, and was done by Vsauce2, although the version in his video features Shrek, Donkey, Lord Faarquad and some other Shrek characters to create "Shreksapawn". If you'd like to learn more about Shreksapawn, and prefer a visual/audio explanation of how hexapawn works, [go check out Vsauce2's video](https://youtu.be/sw7UAZNgGg8).
 
-![User Interface Screenshot](/images/hexapawn/user-interface.png)
+![User Interface Screenshot](/images/projects/hexapawn/user-interface.png)
 
 ## What *is* Hexapawn?
 

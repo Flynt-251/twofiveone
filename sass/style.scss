@@ -8,7 +8,27 @@
     $light-text: #000000;
     $light-subtext: #555;
     $light-subtext-highlight: #333;
-    $light-navbar-background: #ccc;
+    $light-navbar-background: #dedede;
+    
+    $dark-background: #121212;
+    $dark-text: #ffffff;
+    $dark-subtext: #aaa;
+    $dark-subtext-highlight: #ddd;
+    $dark-navbar-background: #282828;
+
+    --light-background: #fafafa;
+    --light-text: #000000;
+    --light-subtext: #555;
+    --light-subtext-highlight: #333;
+    --light-navbar-background: #dedede;
+    
+    --dark-background: #121212;
+    --dark-text: #ffffff;
+    --dark-subtext: #aaa;
+    --dark-subtext-highlight: #ddd;
+    --dark-navbar-background: #222;
+
+    --nav-background: #{$dark-background};
     
     --background: #{$light-background};
     --text: #{$light-text};
@@ -19,17 +39,25 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
+        $light-background: #fafafa;
+        $light-text: #000000;
+        $light-subtext: #555;
+        $light-subtext-highlight: #333;
+        $light-navbar-background: #ccc;
+        
         $dark-background: #121212;
         $dark-text: #ffffff;
         $dark-subtext: #aaa;
         $dark-subtext-highlight: #ddd;
-        $dark-navbar-background: #222;
+        $dark-navbar-background: #282828;
         
         --background: #{$dark-background};
         --text: #{$dark-text};
         --subtext: #{$dark-subtext};
         --subtext-highlight: #{$dark-subtext-highlight};
         --navbar-background: #{$dark-navbar-background};
+
+        --nav-background: var(--navbar-background);
     }
 }
 
@@ -39,14 +67,25 @@ html {
 
 body {
     background-color: var(--background);
-    font-family: "Roboto", sans-serif;
+    font-family: "Manrope", sans-serif;
     color: var(--text);
     margin: 0;
     text-decoration: none;
 
+    h1 {
+        margin: 0;
+        padding: 30px 0 10px 0;
+    }
+
     a {
         text-decoration: underline;
         color: var(--text);
+    }
+
+    h1, h2, h3 {
+        font-family: "Merriweather", serif;
+        font-weight: 700;
+        font-optical-sizing: auto;
     }
 
     .katex-html {
@@ -66,10 +105,11 @@ body {
 }
 
 .reading-page {
-    width: 40em;
-    margin: 150px auto 100px auto;
-    font-size: 16pt;
+    width: max(35%, 30em);
+    margin: 0 auto 100px auto;
+    font-size: 14pt;
     text-align: justify;
+    hyphens: auto;
 
     a {
         color: var(--text);
@@ -78,8 +118,14 @@ body {
     }
     
     h1 {
-        font-size: 36pt;
+        padding: 65px 0 0 0;
+        font-size: 32pt;
         text-align: left;
+    }
+    .page-metadata {
+        font-size: 14pt;
+        color: var(--subtext);
+        margin-bottom: 10px;
     }
     
     p { line-height: 32px; }
@@ -102,11 +148,11 @@ body {
 
 }
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 600px) {
     .reading-page {
         width: 80%;
-        margin: 150px auto 100px auto;
-        font-size: 14pt;
+        margin: 0 auto 100px auto;
+        font-size: 12pt;
         text-align: justify;
     
         a {
@@ -116,6 +162,8 @@ body {
         }
         
         h1 {
+            font-family: "Merriweather", serif;
+            padding: 180px 0 0 0;
             font-size: 32pt;
             text-align: left;
         }
@@ -140,26 +188,39 @@ body {
 }
 
 .page-listing {
+
     li {
         list-style: none;
         padding: 30px 24px;
-        margin: 20px 90px 20px 0;
+        margin: 20px 0 20px 0;
         background-color: var(--navbar-background);
-        border-radius: 24px;
+        cursor: pointer;
+        transition: 0.3s;
+
+        &:hover {
+            transform: translate(30px, 0);
+        }
+
+        &:active {
+            transform: translate(30px, 0) scale(0.96);
+        }
     }
 
     a {
         text-decoration: none;
-        color: var(--text);
-        transition: 0.3s;
-        padding-left: 10px;
-        &:hover { color: var(--subtext); }
+        color: inherit;
     }
 
     .item-subtext {
         padding: 0;
-        margin: 0 0 0 10px;
+        margin: 0;
         font-size: 12pt;
         color: var(--subtext);
+        text-align: left;
     }
+}
+
+ul.page-listing {
+    padding: 0 !important;
+    margin: 0;
 }

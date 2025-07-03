@@ -21,7 +21,7 @@ So it's a five-tuple with five symbols we've never seen before. So let's go over
 
 As you can imagine, the transition function does a lot of heavy lifting for us. We can represent its *function*ality using either a state diagram, or a state transition table. The former is easier to get your head around, so here's an example for the language $\{a^nb^m : n,m \in \mathbb{N} \setminus \{0\}\}$
 
-![The DFA representing the above language](/images/dfa-1.png)
+![The DFA representing the above language](/images/resources/cs259/dfa-1.png)
 
 If a DFA $M$ represents a regular language $R$, then we can state $R = L(M)$, where $L$ is some arbitrary function which returns the set of all valid strings produced by the DFA.
 
@@ -51,7 +51,7 @@ $\delta : Q \times (\Sigma \cup \{\epsilon\}) \rightarrow 2^Q$
 
 And an NFA looks like this:
 
-![An NFA](/images/nfa-1.png)
+![An NFA](/images/resources/cs259/nfa-1.png)
 
 Here, this describes the language of strings that may start with a single $a$, and end with any number of $b$s.
 

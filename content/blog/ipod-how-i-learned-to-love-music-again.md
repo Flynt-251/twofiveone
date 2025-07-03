@@ -3,7 +3,7 @@ title = "The iPod: How I learned to start loving music again"
 date = "2024-09-11"
 +++
 
-![The iPod, next to a large collection of CD albums](/images/ipod-how-i-learned-to-love-music-again/ipod-and-cds.jpg)
+![The iPod, next to a large collection of CD albums](/images/blog/ipod-how-i-learned-to-love-music-again/ipod-and-cds.jpg)
 
 It's no secret that music makes up a significant portion of our lives nowadays. I'm personally not sure if I'd be able to tolerate hours of debugging my coursework in total silence, so you can bet that most, if not all of the time, I've got headphones on or earbuds in, probably blasting some sort of progressive house or trance at full whack.
 
@@ -31,7 +31,7 @@ And getting the music onto your shiny new iPod is very straightforward. You can 
 
 My only gripe with iTunes is that in order to obtain album artwork, you need to be logged in with an Apple ID, something I was willing to do, except I wasn't able to register. Even then, if you're reluctant to use iTunes, you can mod your iPod with Rockbox, and drag-and-drop mp3s easily.
 
-![My iPod has been kitted out with a new custom black shell.](/images/ipod-how-i-learned-to-love-music-again/ipod-rear.jpg)
+![My iPod has been kitted out with a new custom black shell.](/images/blog/ipod-how-i-learned-to-love-music-again/ipod-rear.jpg)
 
 ## But why is it better?
 
