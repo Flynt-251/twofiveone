@@ -7,8 +7,8 @@
     background-size: cover;
 
     .container-splash {
-        width: 30vh;
-        height: 30vh;
+        width: max(30vh, 200px);
+        height: max(30vh, 200px);
         margin: 0;
         position: absolute;
         top: 50%;
@@ -80,7 +80,7 @@
     background-size: cover;
 
     .technology-text{
-        width: 40%;
+        width: min(100%, 700px);
         height: 320px;
         background-color: var(--light-background);
         margin: 0;
@@ -127,7 +127,7 @@
     background-image: url("images/bhattacharyya.jpg");
 
     .community-text{
-        width: 40%;
+        width: min(100%, 700px);
         height: 440px;
         background-color: var(--light-background);
         margin: 0;
@@ -149,6 +149,10 @@
             font-size: 20pt;
             text-align: center;
         }
+
+        ul {
+            padding: 0;
+        }
         
         li {
             color: var(--light-subtext);
@@ -156,6 +160,7 @@
             text-align: center;
             list-style-type: none;
             margin: 0;
+            padding: 0;
         }
 
         a {
@@ -180,9 +185,8 @@
     background-color: var(--light-background);
 
     .progress-text {
-        width: 45%;
+        width: min(100%, 700px);
         height: 340px;
-        padding: 0 20px;
         background-color: var(--dark-background);
         margin: 0;
         position: absolute;
@@ -216,4 +220,52 @@
             }
         }
     }
+}
+
+@media screen and (max-width: 700px) {
+
+    .technology-text {
+        height: auto;
+
+        p {
+            font-size: 16pt !important;
+        }
+
+        a {
+            font-size: 16pt !important;
+        }
+    }
+
+    .community-text {
+        height: auto;
+
+        h1 {
+            margin: 13px 0 0 0 !important;
+        }
+
+        p {
+            font-size: 16pt !important;
+        }
+
+        li {
+            font-size: 14pt !important;
+        }
+
+        a {
+            font-size: 16pt !important;
+        }
+    }
+
+    .progress-text {
+        height: auto;
+
+        p {
+            font-size: 16pt !important;
+        }
+
+        a {
+            font-size: 16pt !important;
+        }
+    }
+
 }

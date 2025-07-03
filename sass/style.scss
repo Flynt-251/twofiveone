@@ -107,8 +107,9 @@ body {
 .reading-page {
     width: max(35%, 30em);
     margin: 0 auto 100px auto;
-    font-size: 16pt;
+    font-size: 14pt;
     text-align: justify;
+    hyphens: auto;
 
     a {
         color: var(--text);
@@ -117,9 +118,14 @@ body {
     }
     
     h1 {
-        padding: 65px 0 40px 0;
-        font-size: 36pt;
+        padding: 65px 0 0 0;
+        font-size: 32pt;
         text-align: left;
+    }
+    .page-metadata {
+        font-size: 14pt;
+        color: var(--subtext);
+        margin-bottom: 10px;
     }
     
     p { line-height: 32px; }
@@ -142,11 +148,11 @@ body {
 
 }
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 600px) {
     .reading-page {
         width: 80%;
         margin: 0 auto 100px auto;
-        font-size: 14pt;
+        font-size: 12pt;
         text-align: justify;
     
         a {
@@ -157,7 +163,7 @@ body {
         
         h1 {
             font-family: "Merriweather", serif;
-            padding: 180px 0 90px 0;
+            padding: 180px 0 0 0;
             font-size: 32pt;
             text-align: left;
         }
