@@ -35,7 +35,7 @@ Classes may be connected, by either inheriting from a parent class, implementing
 - If a class inherits from an abstract class, draw a line with a white arrow, pointing to the abstract class.
 - If a class implements an interface, draw a dashed line with a white arrow, pointing to the interface.
 
-![A class diagram showing the relationship between three types of canid (not necessarily biologically accurate)](/images/uml-class1.png)
+![A class diagram showing the relationship between three types of canid (not necessarily biologically accurate)](/images/resources/cs261/uml-class1.png)
 
 Classes may also be related as they use each other in some way that does not require inheritance:
 
@@ -43,13 +43,13 @@ Classes may also be related as they use each other in some way that does not req
 - **Composition**, black diamond - A class is made up from another
 - **Dependency**, dotted line - A class temporarily uses another.
 
-![A set of class diagrams showing how to represent aggregation, composition and dependency](/images/uml-class2.png)
+![A set of class diagrams showing how to represent aggregation, composition and dependency](/images/resources/cs261/uml-class2.png)
 
 ## Putting things in context
 
 A **Context Model** shows how *multiple systems* interact with each other. Let's say we were building a self-service checkout, we'd need to interface with at least two other systems: a payment processor to take card payments, and the shop's loyalty card program, as this is likely a separate system, given it likely has data also accessible on other devices, such as customers' mobile phones.
 
-![A Context Diagram for a self-service checkout, as described above](/images/uml-context.png)
+![A Context Diagram for a self-service checkout, as described above](/images/resources/cs261/uml-context.png)
 
 ## Keep Active!
 
@@ -57,7 +57,7 @@ A **Context Model** shows how *multiple systems* interact with each other. Let's
 
 An *activity diagram* shows us the process that takes place when we take a certain action. For this example, let's look at what would happen for a recorder app, that lets us either record video or audio.
 
-![Activity diagram for a recording app. The app allows for either audio only or audio and video in parallel](/images/uml-activity.png)
+![Activity diagram for a recording app. The app allows for either audio only or audio and video in parallel](/images/resources/cs261/uml-activity.png)
 
 You might compare this to a flow diagram, but keep in mind that *activity diagrams can show us things that happen concurrently and/or in parallel*.
 
@@ -65,7 +65,7 @@ You might compare this to a flow diagram, but keep in mind that *activity diagra
 
 **Use Case Diagrams** are used to show how different types of user may interact with a system. Let's continue with our self-checkout example.
 
-![Use Case Diagram for a self-checkout. A customer can add or remove items, and pay for their shopping and get cashback. A member of staff may also remove items, but may need to approve a sale, if the customer is buying alcohol](/images/uml-use-case.png)
+![Use Case Diagram for a self-checkout. A customer can add or remove items, and pay for their shopping and get cashback. A member of staff may also remove items, but may need to approve a sale, if the customer is buying alcohol](/images/resources/cs261/uml-use-case.png)
 
 If you have systems where a user may interact with another of the same type, such as on a messaging server, *do not put multiple instances of the same user*.
 
@@ -75,13 +75,13 @@ A **sequence diagram** shows us how certain processes interact with each other a
 
 Let's say we have a system where, a computer, on boot, connects to a local server, which reports to a "supervisor" server. The computer then shares with the local server continuously, until it shuts down. The exception to this, is if the local server detects an abnormality, then it reports this to the supervisor and instructs the computer to shut down. Here's what that would look like, on a sequence diagram.
 
-![Sequence Diagram of the above description](/images/uml-sequence.png)
+![Sequence Diagram of the above description](/images/resources/cs261/uml-sequence.png)
 
 ## In a familiar state
 
 Lastly, we will look at **state machine diagrams**. State diagrams describe how the system may be in one of a set of states, and the actions needed to move between them. Let's use a variation on an example we saw earlier.
 
-![A state diagram describing a similar system as the activity diagram above](/images/uml-states.png)
+![A state diagram describing a similar system as the activity diagram above](/images/resources/cs261/uml-states.png)
 
 In fact, if you look at the UML tree at the top, you can see that activity diagrams and state machine diagrams are under the same family of behaviour diagrams. Again, you could compare these to flow charts, but the distinction here is that a state machine diagram will move state *in response to an event happening*, which in our case, is pressing the record button. But for a flow diagram, each box represents a procedure we carry out, before moving instantly to the next one.
 

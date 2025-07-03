@@ -21,13 +21,13 @@ Little-to-no documentation exists on the X131e, so I was stuck in the dark findi
 
 It turns out, the L08 resides right below the CPU, just above the RAM sockets. You don't even need to take the motherboard out of the computer, just take the backplate off and you'll see it.
 
-![The L08 Chip is located next to the top RAM slot](/images/thinkpad/thinkpad-x131e-cover-off.jpg)
+![The L08 Chip is located next to the top RAM slot](/images/blog/thinkpad/thinkpad-x131e-cover-off.jpg)
 
 ## Step 2 - Shorting the Chip
 
 As mentioned before, shorting the chip is very easy to do. The two pins are the SCL and SDA pins, which are next to each other, and are on the opposite corner of Pin 0, denoted by the circle. Below the two pins on the X131e are highlighted.
 
-![Short together the two leftmost pins.](/images/thinkpad/thinkpad-x131e-l08-location.jpg)
+![Short together the two leftmost pins.](/images/blog/thinkpad/thinkpad-x131e-l08-location.jpg)
 
 Because the chip is so small, you can use something like a needle or the end of a paperclip to short the pins.
 

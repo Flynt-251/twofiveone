@@ -317,7 +317,7 @@ Given this information, let's construct the state diagram for 101100. We can do 
 
 Giving us the following state diagram:
 
-![State diagram for the collision vector 101100](/images/pipeline-states.png)
+![State diagram for the collision vector 101100](/images/resources/cs257/pipeline-states.png)
 
 In this case, the diagram is very simple, but depending on how our pipeline is structured, we may end up with may different avenues we could go down. We end up with many different cycles to choose from, so here we can use the cycle (2,5), or constant latency 5. Our first option, using both states, is also called a **greedy cycle**, as it selects the transition with the lowest latency, i.e., we introduce a new instruction as soon as possible. This doesn't necessarily give us the MAL, but often it is "close enough". There may even be multiple greedy cycles, which don't start at the original vector.
 

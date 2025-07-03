@@ -4,7 +4,7 @@ title = "7 - Flow Networks"
 
 First off, wtf is a flow network? A **Flow Network** is simply a graph, with some additional parameters and constraints. It consists of sets of vertices and edges, and some source vertex $s \in V$, sink vertex $t \in V$ and capacity function $c : E \rightarrow \reals^+$. Furthermore, the source vertex has no incoming edges, and the sink vertex has no outgoing edges. Below is an example (crudely drawn).
 
-![Image of a flow network containing six vertices](/images/Flow-network-1.jpg)
+![Image of a flow network containing six vertices](/images/resources/cs260/Flow-network-1.jpg)
 
 There is also a generally implied rule that flow networks do not have any reverse edges. Actually, these are seen in its *residual network*.
 

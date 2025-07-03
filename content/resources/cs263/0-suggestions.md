@@ -69,7 +69,7 @@ Instead, a longer password, even with a smaller variety of characters, is prefer
 
 Okay, let's put this together and make a password. But first, I'll employ another strategy of taking a word, substituting some numbers into it, then adding some punctuation symbols at the end.
 
-![The password "N3pe9Enthe#5" is weak, with a length of 12 and entropy of 54.22 bits.](/images/nepenthe-password.png)
+![The password "N3pe9Enthe#5" is weak, with a length of 12 and entropy of 54.22 bits.](/images/resources/cs263/nepenthe-password.png)
 
 Hmm. This is a weak password. It may be passable in some peoples' books. Let's try my method. Did I mention KeePassXC has a password strength checker, by the way?
 
@@ -90,7 +90,7 @@ Hmm. This is a weak password. It may be passable in some peoples' books. Let's t
 
 And the result?
 
-![The password is excellent, with a length of 57 and entropy of 245.03 bits.](/images/longer-password.png)
+![The password is excellent, with a length of 57 and entropy of 245.03 bits.](/images/resources/cs263/longer-password.png)
 
 A massive improvement! I'd happily use this password to secure a password manager. Now, there's no shame in writing down your password on a piece of paper, somewhere secure while you get it into your memory. But once you're sure you've memorised the password, destroy the paper immediately! Of course, this password is very long, and typing it in may take a moment, but remember that often you need to sacrifice convenience for the sake of security.
 
