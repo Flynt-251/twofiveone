@@ -6,12 +6,14 @@
 
 <section class="reading-page">
     <div class="container">
-        <h1>RESOURCES.</h1>
-        <p>About to come to Warwick? Here are some info pages that will link you to some really helpful resources. There are pages for all first year core CS modules, plus CS140 and CS141, otherwise known as Computer Security and Functional Programming. Each page will also have my overall thoughts for that module, including teaching, coursework and exam content. There currently aren't any notes for these modules.</p>
-        <p>If you're in <b>Second Year</b>, all notes are available for core modules, plus CS257 and CS263!</p>
+        <h1>Resources</h1>
+        <p>This page is for my fellow Warwick CS students who are also fighting their way through their degree. For first year modules (core plus Computer Security and Functional Programming), reviews and links to other resources are available, as well as my opinions on said modules. For second years, there are full notes available for core modules plus Advanced Computer Architecture and Cyber Security, which I've tried to write in an engaging and humorous style. If it's currently term 3 and you're cramming all the revision you can, then good luck, we're all gonna need it.</p>
     </div>
+    <a href="#second-year-modules">Jump to second year modules</a>
     <br>
 
+
+    <h2 id="first-year-modules">First Year Modules</h2>
     <ul class="page-listing">
         {% for page in section.pages %}
         <li onclick="location.href='{{ page.permalink | safe }}'">{{ page.title }}</li>
@@ -19,7 +21,8 @@
     </ul>
 
     <!-- Needs reworking, will hard-code for now. -->
-     <br>
+    <br>
+    <h2 id="second-year-modules">Second Year Modules</h2>
     <ul class="page-listing">
         <li onclick="location.href='/resources/cs241/'">CS241 - Operating Systems and Computer Networks</li>
     </ul>
