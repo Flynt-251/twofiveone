@@ -14,7 +14,7 @@
 
         <ul class="page-listing">
             {% for page in section.pages %}
-            <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+            <li onclick="location.href='{{ page.permalink | safe }}'">{{ page.title }}
             <p class="item-subtext">{{ page.description }}</p></li>
             {% endfor %}
         </ul>

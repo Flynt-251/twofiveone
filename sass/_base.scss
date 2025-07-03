@@ -16,7 +16,7 @@
         font-size: 18pt;
         opacity: 0;
         transition: opacity 0.3s ease-in-out;
-        transition-delay: 0.6s;
+        transition-delay: 0.2s;
         transition-property: opacity;
 
         &:hover {
@@ -35,9 +35,10 @@
         height: 110px;
         position: fixed;
         margin: 30px;
-        background-color: var(--dark-background);
+        background-color: var(--nav-background);
         z-index: 1;
-        transition: all 0.7s cubic-bezier(0.25, 0.8, 0.25, 1);
+        // transition: all 0.7s cubic-bezier(0.25, 0.8, 0.25, 1);
+        transition: all 0.2s linear;
 
         #navLanding {
             background: none;
@@ -62,6 +63,10 @@
             
             img:hover {
                 transform: scale(1.1);
+            }
+
+            img:active {
+                transform: scale(0.96);
             }
         }
 

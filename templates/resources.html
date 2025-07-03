@@ -14,35 +14,35 @@
 
     <ul class="page-listing">
         {% for page in section.pages %}
-        <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
+        <li onclick="location.href='{{ page.permalink | safe }}'">{{ page.title }}</li>
         {% endfor %}
     </ul>
 
     <!-- Needs reworking, will hard-code for now. -->
      <br>
     <ul class="page-listing">
-        <li><a href="/resources/cs241/">CS241 - Operating Systems and Computer Networks</a></li>
+        <li onclick="location.href='/resources/cs241/'">CS241 - Operating Systems and Computer Networks</li>
     </ul>
     <ul class="page-listing">
-        <li><a href="/resources/cs257/">CS257 - Advanced Computer Architecture</a></li>
+        <li onclick="location.href='/resources/cs257/'">CS257 - Advanced Computer Architecture</li>
     </ul>
     <ul class="page-listing">
-        <li><a href="/resources/cs258/">CS258 - Database Systems</a></li>
+        <li onclick="location.href='/resources/cs258/'">CS258 - Database Systems</li>
     </ul>
     <ul class="page-listing">
-        <li><a href="/resources/cs259/">CS259 - Formal Languages</a></li>
+        <li onclick="location.href='/resources/cs259/'">CS259 - Formal Languages</li>
     </ul>
     <ul class="page-listing">
-        <li><a href="/resources/cs260/">CS260 - Algorithms</a></li>
+        <li onclick="location.href='/resources/cs260/'">CS260 - Algorithms</li>
     </ul>
     <ul class="page-listing">
-        <li><a href="/resources/cs261/">CS261 - Software Engineering</a></li>
+        <li onclick="location.href='/resources/cs261/'">CS261 - Software Engineering</li>
     </ul>
     <ul class="page-listing">
-        <li><a href="/resources/cs262/">CS262 - Logic and Verification</a></li>
+        <li onclick="location.href='/resources/cs262/'">CS262 - Logic and Verification</li>
     </ul>
     <ul class="page-listing">
-        <li><a href="/resources/cs263/">CS263 - Cyber Security</a></li>
+        <li onclick="location.href='/resources/cs263/'">CS263 - Cyber Security</li>
     </ul>
 </section>
 
