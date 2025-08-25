@@ -3,7 +3,10 @@
 
 {% block content %}
 
-<script>document.title = "About - 251.XYZ"</script>
+<script>
+    document.title = "About - 251.XYZ"
+    document.getElementsByTagName("meta").namedItem("description").content = "About 251.XYZ"
+</script>
 
 <section class="reading-page">
     <div class="container">

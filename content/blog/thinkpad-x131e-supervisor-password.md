@@ -5,6 +5,8 @@ date = "2024-07-30"
 
 I recently picked up a broken ThinkPad X131e off of eBay for just £30, and it was honestly quite a bargain given it was broken. Why? The seller said the issue was that there was a BIOS password that they couldn't get past. Given the age of this laptop, this should be a fairly straightforward task, right?
 
+<!-- more -->
+
 Well, that's what I originally thought... But the process can be a little scary if you haven't cracked open many laptops before.
 
 So, if you've picked up any old ThinkPad with a BIOS lock on it, this guide should help you figure out how to not only bypass, but also reset it.

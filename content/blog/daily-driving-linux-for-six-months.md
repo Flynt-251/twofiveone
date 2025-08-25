@@ -7,6 +7,8 @@ date = "2025-05-04"
 
 At the start of the academic year, I finally made the decision to switch to Linux. And if you want the short answer to how it's going, **I love it**. It's true what people say, you are now in control of your computer on Linux, and that serves as both a blessing and a curse. So in this post, I want to share with you the things I've learned, what I think about Linux now, and the next steps I'm going to take. I may even do a bi-yearly update on my usage if there's demand for it!
 
+<!-- more -->
+
 ## The first big question
 
 I already know some of you are asking this question, so I'll answer it now for you. My distro of choice is [**Fedora Linux**](https://fedoraproject.org/) on both my work laptop and my main PC rig, dual-booting with Windows on both. At least, this was the case on my laptop until I did a clean install again. Now for the next question, *"Why Fedora?"*. Well, to be honest, I picked it because one of my friends suggested that they were trying it. I didn't even know myself what I was getting into, until I installed it onto my computers.

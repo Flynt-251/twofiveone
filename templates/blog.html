@@ -2,7 +2,11 @@
 
 {% block content %}
 
-<script>document.title = "Blog - 251.XYZ"</script>
+<script>
+    document.title = "Blog - 251.XYZ"
+    document.getElementsByTagName("meta").namedItem("title").content = "Blog - 251.XYZ"
+    document.getElementsByTagName("meta").namedItem("description").content = "This is my corner of the internet where I like to yap about tech I like. Here you'll find info about old electronics, programming stories, PC building, and the occasional IRL story."
+</script>
 
 <section class="reading-page">
     <div class="container">

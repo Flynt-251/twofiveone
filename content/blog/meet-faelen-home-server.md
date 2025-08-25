@@ -7,6 +7,8 @@ date=2025-08-05
 
 Lately, my Google account has not stopped giving me scary warnings that I'm nearing my storage limit for my drive. For context, I've been using the free limit of 15GB for years to store my photos, since Google photos now counts for drive storage. So clearly I had a choice on my hands: delete some photos, which I obviously wasn't going to do, or bite the bullet and pay £1.59 a month for more data. So I decided to spend £500 on my own storage server.
 
+<!-- more -->
+
 To be fair, I've wanted to get into "homelabbing" for a while now, what with the wide range of open-source apps available which provide great alternatives to services provided by big tech companies. It's also a great way to give yourself a sandbox for making your own network applications and, hence, learning more about networking. Here's how I put mine together, what I installed onto it, and what I learned from the experience.
 
 ## Built on hopes and dreams

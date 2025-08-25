@@ -9,6 +9,8 @@ date="2024-07-31"
 
 While at University, I've picked up the hobby of scouting out old electronics on eBay. For me, it's a bit of a therapeutic practice, and it's honestly more fun than shopping around for new tech which likely costs much more. Of course, I have bought the occasional thing here and there, and this post talks about my most recent impulse buy: A broken Lenovo ThinkPad X131e.
 
+<!-- more -->
+
 The ThinkPad X131e, to my knowledge, was an entry level laptop aimed at the education market in 2012. It's tiny, with an 11.6 inch screen, but being an X-series ThinkPad, it's designed to take a fair beating, presumably jostling around in one's backpack. *We don't need no stinkin' carry cases!* My model comes with an AMD dual core processor, although some research suggests there are also models that came with Intel's (probably faster) Core 2 Duo.
 
 So what was the problem with this laptop? Nothing too difficult, actually, as there were no issues with the hardware or cosmetics. Rather, it had a BIOS lock, and a forgotten Windows password. So, I fixed both of these problems, made some upgrades, and put this laptop to the test. Just what can be done on a twelve-year-old entry level laptop?

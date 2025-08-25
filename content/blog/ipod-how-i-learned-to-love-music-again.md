@@ -7,6 +7,8 @@ date = "2024-09-11"
 
 It's no secret that music makes up a significant portion of our lives nowadays. I'm personally not sure if I'd be able to tolerate hours of debugging my coursework in total silence, so you can bet that most, if not all of the time, I've got headphones on or earbuds in, probably blasting some sort of progressive house or trance at full whack.
 
+<!-- more -->
+
 And, like almost everyone else, I've been using Spotify Premium. While there's nothing necessarily wrong with that, Spotify isn't always great. My main gripe is that the app uses way too many features to try and get you to listen to new music, which in my case, leads to the opposite intended effect, meaning I almost always stick with my liked songs. The "Smart Shuffle" feature recommends all kinds of random artists that aren't my vibe, for example, and it's all too easy to enable it by accident when skipping tracks (which I do way too often).
 
 And yes, I dislike the fact I don't actually own any of the music I save! Nothing stops streaming services from nuking your favourite artist, TV show or movie.
