@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="reading-page">
+    <h1 id="links-title">twofiveone.xyz</h1>
+    <p class="links-subtext">Hi! Welcome to twofiveone.xyz, Flynt's personal corner of the internet. Here, you'll find my blog, notes for computer science and some articles about work I've done in the past. Why not check out my other hiding places to see what I'm up to?</p>
+    <ul class="page-listing">
+        <li class="link-item"
+            style="background-image: url(/images/blog/meet-faelen-home-server/intro-image.jpg); background-size: cover; background-position: bottom; color: white; text-align: left; font-weight: 900;"
+            onclick="window.location.href='/blog/meet-faelen-home-server/'">
+            Latest Blog: Meet my home server
+        </li>
+        <li class="link-item"
+            style="background: linear-gradient(to right, #4d4d4d, #dedede);"
+            onclick="window.location.href='/'">
+            Go to main site →
+        </li>
+        <li class="link-item"
+            style="background: linear-gradient(135deg, #c0ddfc, #037afa);"
+            onclick="window.location.href='https://bsky.app/profile/twofiveone.xyz'">
+            Bluesky (@twofiveone.xyz)
+        </li>
+        <li class="link-item"
+            style="background: linear-gradient(135deg, #5868f2, #332b5e); color: white;"
+            onclick="window.location.href='https://discordapp.com/users/554748407739187356'">
+            Message me on Discord!
+        </li>
+        <li class="link-item"
+            style="background-color: #1f2328; color: white;"
+            onclick="window.location.href='https://github.com/Flynt-251/'">
+            GitHub
+        </li>
+        <li class="link-item"
+            style="background: linear-gradient(to right, #ec5b07, #e48d0c);"
+            onclick="window.location.href='https://gitlab.com/Flynt251'">
+            GitLab (Inactive rn)
+        </li>
+        <li class="link-item"
+            style="background: linear-gradient(to right, #171d25, #2a475e); color: white;"
+            onclick="window.location.href='https://steamcommunity.com/profiles/76561199068946236'">
+            Steam
+        </li>
+        <li class="link-item"
+            onclick="window.location.href='mailto:flynt@twofiveone.xyz'">
+            Send me an email!
+        </li>
+    </ul>
+</section>
+{% endblock %}

@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block content %}
+<script>
+    document.body.style.backgroundColor = "#bab86c";
+</script>
+
+<section class="reading-page">
+    <div class="clyde-header">
+        <img src="/images/clyde/icon.png" alt="PFP">
+        <h1 id="clyde-title">Clyde Wolf</h1>
+    </div>
+
+    <p class="links-subtext">Awoo! Welcome to twofiveone.xyz! Someone else owns this site but I've set my den up here... Suppose while you're here, you should go and check out the blog. Or, if you're an artist and I've given you this link, you're likely looking for my references! Or of course, you could always shoot me a message on Telegram or see what I'm howling about on Bluesky...</p>
+    <p class="links-subtext">Icon by <a href="https://bsky.app/profile/inkydragon.bsky.social">@inkydragon.bsky.social</a></p>
+    <ul class="page-listing">
+        <li class="link-item"
+            style="background: linear-gradient(to right, #4d4d4d, #dedede);"
+            onclick="window.location.href='/'">
+            Go to twofiveone.xyz →
+        </li>
+        <li class="link-item"
+            style="background: linear-gradient(45deg, #d49767, #dc7121);"
+            onclick="window.location.href='https://drive.google.com/drive/folders/1ztqZHZP2lFKhzHuIlXpcwBLntZsz26FE?usp=drive_link'">
+            Go to my references!
+        </li>
+        <li class="link-item"
+            style="background: linear-gradient(135deg, #c0ddfc, #037afa);"
+            onclick="window.location.href='https://bsky.app/profile/clydewolf.bsky.social'">
+            Bluesky - Mainly active here
+        </li>
+        <li class="link-item"
+            style="background: linear-gradient(225deg, #3be783, #0f96ff);"
+            onclick="window.location.href='https://t.me/clyde_w0lf'">
+            Telegram
+        </li>
+        <li class="link-item"
+            onclick="window.location.href='mailto:clyde@twofiveone.xyz'">
+            Send me an email (Comms only)
+        </li>
+    </ul>
+    <br>
+</section>
+{% endblock %}
