@@ -11,9 +11,10 @@
     </div>
     <a href="#second-year-modules">Jump to second year modules</a>
     <br>
-
-
+    
+    
     <h2 id="first-year-modules">First Year Modules</h2>
+    <p><b>If your course started on/after 2025:</b> For notes for CS143, please refer to the pages for <a href="/resources/cs259">CS259 - Formal Languages</a> and <a href="/resources/cs262">CS262 - Logic and Verification</a> (minus Prolog).</p>
     <ul class="page-listing">
         {% for page in section.pages %}
         <li onclick="location.href='{{ page.permalink | safe }}'">{{ page.title }}</li>
@@ -23,6 +24,7 @@
     <!-- Needs reworking, will hard-code for now. -->
     <br>
     <h2 id="second-year-modules">Second Year Modules</h2>
+    <p><b>If your course started on/after 2025:</b> For CS267, please refer to the page for <a href="/resources/cs131">CS131</a> (no notes unfortunately). There are no notes for CS275 as this was previously an optional module for my year.</p>
     <ul class="page-listing">
         <li onclick="location.href='/resources/cs241/'">CS241 - Operating Systems and Computer Networks</li>
     </ul>
