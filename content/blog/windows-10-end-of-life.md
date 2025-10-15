@@ -34,8 +34,10 @@ Let me get the main selling points of Linux out of the way: it's free, doesn't r
 - **Competitive Online Games** - Many titles use anti-cheat software that generally isn't compatible with Linux, and trying to run these games in hacky ways on Linux will likely result in a ban. Such games include Fortnite and Competitive CS lobbies.
 - **Professional Software** - DO NOT switch to Linux if your work laptop relies on Microsoft-based services, or uses software designed for Windows. Trying to source Linux alternatives and workarounds is generally a waste of time and will cause unnecessary headache.
 - **iTunes** - There's no version for Linux, so if you have an old iPod laying around, either keep Windows, or consider using Rockband.
-- **Newer Nvidia GPUs** - While drivers exist for these GPUs, they're not very good, as they're not first party.
-	- This largely does not affect AMD and Intel GPUs. Older Nvidia GPUs should also be fine.
+
+> **Update (15/10/2025)** - I previously mentioned on here that newer Nvidia GPUs don't have good support on Linux, however more recently, Nvidia has their own open-source drivers which run on Linux and support all of their most recent GPUs. So, your GPU shouldn't matter, you're good-to-go regardless of manufacturer! (Of course, your mileage may vary)
+>
+> Thanks to [@xenia.sh](https://bsky.app/profile/xenia.sh) on Bluesky for pointing this out!
 
 Fear not if your favourite software isn't supported on Linux, try using [AlternativeTo](https://alternativeto.net) to seek out alternatives. For example, while there's no Adobe Illustrator, you could try learning to use Inkscape. Or instead of Photoshop, try GIMP (get your mind out of the gutter). Wine is also an option to run some Windows apps on Linux, but it's very unlikely to work on newer software: I've personally never had any luck with it.
 
