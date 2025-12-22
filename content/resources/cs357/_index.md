@@ -5,4 +5,6 @@ page_template="resources-page.html"
 title="CS357 - Responsible Computing"
 +++
 
-Slow down, I haven't even started this module yet!
+Last Updated: 22nd December 2025
+
+[22/12/2025] - Added Ethical Frameworks and Professional Codes of Conduct, the rest of the notes will come later as "discussions".
