@@ -12,7 +12,7 @@ $$
 \begin{aligned}
 & \frac{d}{dx} x^a = ax^{a-1} \text{ where } a \in \mathbb{R} \\\\\\\\
 & \frac{d}{dx} e^x = e^x \\\\\\\\
-& \frac{d}{dx} e^{ax} = ae^x \\\\\\\\
+& \frac{d}{dx} e^{ax} = ae^{ax} \\\\\\\\
 & \frac{d}{dx} a^x = a^x \ln(x) \\\\\\\\
 & \frac{d}{dx} \ln(x) = \frac1x
 \end{aligned}
