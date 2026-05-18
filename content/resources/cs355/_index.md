@@ -5,4 +5,4 @@ page_template="resources-page.html"
 title="CS355 - Digital Forensics"
 +++
 
-Slow down, I haven't even started this module yet!
+Last Updated: 18th May 2026 (talk about hitting the ground running after the CS331 exam)

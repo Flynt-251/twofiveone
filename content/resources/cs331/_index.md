@@ -5,4 +5,4 @@ page_template="resources-page.html"
 title="CS331 - Neural Computing"
 +++
 
-last Updated: 6th May 2026
+Last Updated: 6th May 2026
