@@ -15,7 +15,19 @@ The world also has (probably) infinite colours, and again, cameras certainly do 
 
 There are three colours of light: red, green and blue. But judging by some of your PC setups, you likely already knew this. These are filtered by the Colour Filter Array to separate out each colour value, which is usually a grid laid out in a *Bayer Pattern*, which is a chequerboard of green, and red and blue alternating for each other pixel. This means there are double the green subpixels than there are red or blue, and this is to mimic the human eye's numbers of absorption cells.
 
-This results in a very green picture. Therefore, we then perform **CFA Interpolation** to combine the red, green and blue pixel data together, usually through linear or bilinear interpolation. Lastly, we then perform *gamma correction*, which changes the way light values are represented - cameras interpret light in a more accurate way than human eyes do, our eyes interpret it in a logarithmic manner relative to actual light levels (so in sane terms, at lower light levels, there is a steep rise, but as this increases to extreme levels of light, we perceive less change). The formula is as follows:
+This results in a very green picture. Therefore, we then perform **CFA Interpolation** to combine the red, green and blue pixel data together, usually through linear or bilinear interpolation. With **bilinear interpolation**, we try to identify the value of a midpoint in a 2D space.
+
+$$
+\begin{aligned}
+& I(x,y) = a, \text{ } I(x, y+\epsilon) = b \\\\
+& I(x+\epsilon, y) = c, \text{ } I(x+\epsilon, y+\epsilon) = d \\\\\\\\
+& I\_{x,y+k} = \frac{(y+\epsilon) - (y + k)}{(y+\epsilon) - y} \cdot a + \frac{(y+k) - y}{(y+\epsilon) - y} \cdot b \\\\\\\\
+& I\_{x+\epsilon,y+k} = \frac{(y+\epsilon) - (y + k)}{(y+\epsilon) - y} \cdot c + \frac{(y+k) - y}{(y+\epsilon) - y} \cdot d \\\\\\\\
+& I\_{x+k,y+k} = \frac{(x+\epsilon) - (x + k)}{(x+\epsilon) - x} \cdot I\_{x,y+k} + \frac{(x+k) - x}{(x+\epsilon) - x} \cdot I\_{x+\epsilon,y+k}
+\end{aligned}
+$$
+
+Lastly, we then perform *gamma correction*, which changes the way light values are represented - cameras interpret light in a more accurate way than human eyes do, our eyes interpret it in a logarithmic manner relative to actual light levels (so in sane terms, at lower light levels, there is a steep rise, but as this increases to extreme levels of light, we perceive less change). The formula is as follows:
 
 $$
 v'\_{\text{out}} = 255 \times (\frac{v'}{255})^{\gamma} \text{, where } \gamma \text{ is usually } \frac1k \text{ for some } k \in \mathbb{N}

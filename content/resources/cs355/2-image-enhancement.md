@@ -111,8 +111,13 @@ $$
 F(u) = \sum^{N-1}_{x=0}f(x) \alpha(u) \cos(\frac{\pi(2x+1)u}{2N}), \alpha(u) = \begin{cases} \sqrt{\frac1N} & \text{for } u=0 \\\\ \sqrt{\frac2N} & \text{for } u>0 \end{cases}
 $$
 
-
 This results in image frequency representations that have more gradual banding than DFT. DCT is more useful for compression, as there are only a few large coefficients, which suggest those functions make up a big portion of the image. As a result then, we can zero out all the smaller coefficients to lose a negligible amount of detail, and store the image in a smaller file size. We'll get back to compression later on.
+
+We can also use this transform to give a scaled sum of the pixel values, known as the **DC component**, or zero frequency component.
+
+$$
+F(0) = F(u=0) = \frac1{\sqrt{N}} \sum^{N-1}_{x=0} f(x)
+$$
 
 ### Discrete Wavelet Transform (DWT)
 
