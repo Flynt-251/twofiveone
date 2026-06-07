@@ -126,6 +126,10 @@ A **Decision Tree** is the most thorough means of risk identification, as it req
 	3. $0.8 \cdot £7,000 + 0.2 \cdot -£8,000 = £4,000$
 7. Finally, choose the decision which has the best EMV. In this case, we simply replace the hard drive, and hope for the best. Let's save building a new server for when we have a bigger budget.
 
+And here's what that all looks like when we draw out the diagram in full:
+
+![Example Decision Tree Analysis Diagram](/images/resources/cs352/decision-tree-analysis-example.png)
+
 ## How did we get here?
 
 Now that we're aware of the risks present, we may then want to work backwards in identifying the root causes of each of the risks. Or hey, you could do this the other way round, I suppose.
