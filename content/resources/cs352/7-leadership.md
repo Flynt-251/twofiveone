@@ -6,7 +6,13 @@ We can learn all kinds of fancy frameworks and how to draw different cute-lookin
 
 ## The illusion of choice
 
-An important part of being a leader is being **decisive**, making decisions quickly, and making them WELL. This is not the same as being impulsive, decisiveness implies the ability to consider the necessary information quickly and apply it. Additionally, it's important to be considerate about possible bias. Decisiveness is important as even if you make an erroneous decision, that can be learned on, plus self-confidence is infectious!
+An important part of being a leader is being **decisive**, making decisions quickly, and making them WELL. This is not the same as being impulsive, decisiveness implies the ability to consider the necessary information quickly and apply it. Additionally, it's important to be considerate about possible bias. Decisiveness is important as even if you make an erroneous decision, that can be learned on, plus self-confidence is infectious! One thing that can help with this is the **PrOACT** method.
+
+1. Define the **Problem**. The first step to addressing any issue is to ensure we fully comprehend what it actually is.
+2. Then, figure out what the solution's **objectives** should be - converging on a solution might seem like a good idea, but it's getting ahead of yourself.
+3. And once you have considered a solution, keep the **alternatives** in mind. The best choice can only be as good as its next-best alterative.
+4. So with these solutions worked out, consider the **consequences** of each of them: what will happen as a result of executing each of them?
+5. Remember to consider **trade-offs**. This is especially important in cases where there is no one optimal solution.
 
 With this in mind, it's relevant to know that there are different styles of leaders. These each have their own levels of decisiveness, and how much you need to improve your thought process depends on your style as a leader - are you more "on the ball" and encouraging towards your own approach, or do you let your foot off the gas and let the team manage itself?
 

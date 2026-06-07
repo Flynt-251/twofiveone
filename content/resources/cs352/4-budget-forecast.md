@@ -47,6 +47,48 @@ Through EVA, at any point in the project, we can measure a few different variabl
 - **Cost Schedule Index**: $CSI = SPI \times CPI$
 	- The combination of assessments for project progress and cost-effectiveness, an overall measure of the project's performance.
 
+### Example
+
+Let's go back to our example of building a PC, instead thinking about how much money we may spend across the process, and assuming that we accrue the money for it over a period of time. This time, we'll assume we obtain components one-at-a-time, with the expected value denoting the budget for our system, actual cost is... actual cost, and the earned value is determined by each component we've picked up. So with all of that in mind, here's our shopping list:
+
+- PC Case: £100
+- Power Supply: £150
+- Storage: £250
+- CPU: £600
+- GPU: £650
+- Memory: £200
+- Motherboard: £150
+- Cooler: £100
+- Fans: £50
+
+These prices make up our *Expected Value*, and we'll assume that per day we obtain each of these. Now, let's say that the following happened when we executed the collection of the components:
+
+1. We got the PC Case and Power Supply together in a deal for £220 on day one.
+2. We get our storage on day two at £235.
+3. The budget underpredicted the price of the CPU, at £620, but it still arrives on day three.
+4. Some luck was had with an auction for the GPU, netting it for just £550, however shipping got delayed two days, arriving on day six.
+5. Memory has risen in price significantly, so although it arrived day five, it cost £260.
+6. The GPU arrives, as well as the motherboard, which we paid £120 for.
+7. We buy the fans and cooler from the same retailer, for a combined cost of £105, but have to wait a couple of days.
+8. We take today as a rest day.
+9. Everything has arrived and is ready for assembly!
+
+Plotted, here's what that looks like:
+
+![EVA Analysis Graph](/images/resources/cs352/eva-analysis.png)
+
+We can observe we immediately went ahead of schedule, seeing as we immediately go above our expected value, but remain "under budget". On Day 4, that changes though, as we purchase the GPU for £550, but have to wait for it to be shipped, causing a low growth in expected value as we continue buying our other components. After it arrives though, we remain about on-budget, all the way up to Day 9. Here are some calculations which better articulate this information:
+
+- The Schedule Variance on Day 1 is £250, meaning we're ahead of schedule. The SPI is 2.5, which means we're going very fast!
+- The Cost Variance on Day 1 is £30, meaning we're slightly under budget. The CPI is 1.136.
+- The overall Cost Schedule Index on Day 1 is 2.841, which says we're being very time and cost-efficient.
+- On Day 4, the Schedule Variance and SPI are 0 and 1 respectively. This means we're exactly on time.
+- The Cost Variance and CPI tell a different story however, at -525 and 0.677 respectively. We're definitely over budget here!
+- This means the Cost Schedule Index is 0.677. Not great.
+- At Day 9, the SPI is 1, and the CPI is 1.071, with a final CSI of 1.071.
+
+As an additional exercise, you may find it useful to calculate the CSI for each day.
+
 ## Cloudy with a chance of bankruptcy
 
 With the above information, we have the means by which we can **forecast our budget** at the moment, where we try to best identify not only the remaining cost, but also when we anticipate the project will end, given the time and money we've already spent. At the high level, there are three ways to do this using **Estimate at Completion (EAC)**.
