@@ -11,7 +11,7 @@ navToggle.addEventListener('click', () => {
 
     if (navigationToggle) {
         navbox.style.width = '175px';
-        navbox.style.height = '350px';
+        navbox.style.height = '305px';
         navList.style.visibility = 'visible';
         navLinks.forEach(link => {
             link.style.opacity = '1';

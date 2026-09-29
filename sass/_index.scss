@@ -3,12 +3,13 @@
     height: 100vh;
     width: 100%;
     margin: 0;
-    background-image: url("images/central-campus.jpg");
+    // background-image: url("images/central-campus.jpg");
     background-size: cover;
+    background-color: var(--light-background);
 
     .container-splash {
-        width: max(30vh, 200px);
-        height: max(30vh, 200px);
+        width: max(50vh, 600px);
+        height: max(10vh, 200px);
         margin: 0;
         position: absolute;
         top: 50%;
@@ -26,7 +27,7 @@
             -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
             p {
-                font-family: "JetBrains Mono", monospace;
+                font-family: "Merriweather", monospace;
                 font-weight: 700;
                 font-size: 56pt;
                 margin: 0;
@@ -72,17 +73,126 @@
     }
 }
 
+.image {
+    --image-scale: 2.5vh;
+    width: calc(var(--image-scale) * 16);
+    height: calc(var(--image-scale) * 9);
+    background-color: #ff0000;
+    position: absolute;
+}
+
+#img-1 {
+    margin-top: 8vh;
+    margin-left: 10%;
+    background-image: url(/images/dimap-bridge.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#img-2 {
+    margin-top: 12vh;
+    margin-left: max(38.5%, 200px);
+    background-image: url(/images/thinkpads.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#img-3 {
+    right: 0;
+    margin-top: 10vh;
+    margin-right: 11%;
+    background-image: url(/images/malmo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#img-4 {
+    margin-top: 36vh;
+    margin-left: 8%;
+    background-image: url(/images/wall-tree.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#img-5 {
+    right: 0;
+    margin-top: 48vh;
+    margin-right: 10%;
+    background-image: url(/images/open-laptop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#img-6 {
+    margin-top: 64vh;
+    margin-left: 10%;
+    background-image: url(/images/bhattacharyya.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#notes-img-1 {
+    margin-top: 20vh;
+    margin-left: 10%;
+    background-image: url(/images/cats/hedwig-03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#notes-img-2 {
+    right: 0;
+    margin-top: 64vh;
+    margin-right: 11%;
+    background-image: url(/images/geese.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#vol-img-1 {
+    right: 0;
+    margin-top: 12vh;
+    margin-right: 4%;
+    background-image: url(/images/dog-and-laptop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#vol-img-2 {
+    margin-top: 32vh;
+    margin-left: 3%;
+    background-image: url(/images/warwick-sunset.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#vol-img-3 {
+    margin-top: 81vh;
+    margin-left: 36%;
+    background-image: url(/images/WASD26-end.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#digital-img-1 {
+    right: 0;
+    margin-top: 25vh;
+    margin-right: 8%;
+    background-image: url(/images/blog/ipod-how-i-learned-to-love-music-again/ipod-and-cds.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#digital-img-2 {
+    margin-top: 65vh;
+    margin-left: 15%;
+    background-image: url(/images/blog/daily-driving-linux-for-six-months/linux-desktop-screenshot.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .technology {
     width: 100%;
-    height: 100%;
+    height: 120%;
     margin: 0;
-    background-image: url("images/dimap-bridge.jpg");
+    // background-image: url("images/dimap-bridge.jpg");
     background-size: cover;
+    background-color: var(--light-background);
 
     .technology-text{
-        width: min(100%, 700px);
-        height: 320px;
-        background-color: var(--light-background);
+        width: min(100%, 800px);
+        height: 340px;
+        background-color: var(--dark-background);
         margin: 0;
         position: absolute;
         top: 50%;
@@ -91,27 +201,27 @@
         transform: translate(-50%, -50%);
 
         h1 {
-            color: var(--light-text);
+            color: var(--dark-text);
             font-size: 48pt;
             text-align: center;
             margin: 26px 0 0 0;
         }
         
         p {
-            color: var(--light-text);
+            color: var(--dark-text);
             font-size: 20pt;
             text-align: center;
         }
         
         a {
-            color: var(--light-text);
+            color: var(--dark-text);
             font-size: 20pt;
             text-align: center;
             display: block;
             transition: 0.3s;
     
             &:hover {
-                color: var(--light-subtext);
+                color: var(--dark-subtext);
             }
         }
     }
@@ -122,20 +232,21 @@
 
 .community {
     width: 100%;
-    height: 100%;
+    height: 120%;
     margin: 0;
-    background-image: url("images/bhattacharyya.jpg");
+    // background-image: url("images/bhattacharyya.jpg");
+    background-color: var(--dark-background);
 
     .community-text{
-        width: min(100%, 700px);
-        height: 440px;
+        width: min(100%, 800px);
+        height: 520px;
         background-color: var(--light-background);
         margin: 0;
         position: absolute;
         top: 50%;
         left: 50%;
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -60%);
+        transform: translate(-50%, -60%);
 
         h1 {
             color: var(--light-text);
@@ -182,12 +293,12 @@
     width: 100%;
     height: 100%;
     margin: 0;
-    background-color: var(--light-background);
+    background-color: var(--dark-background);
 
     .progress-text {
-        width: min(100%, 700px);
-        height: 340px;
-        background-color: var(--dark-background);
+        width: min(100%, 800px);
+        height: 360px;
+        background-color: var(--light-background);
         margin: 0;
         position: absolute;
         top: 50%;
@@ -196,43 +307,77 @@
         transform: translate(-50%, -50%);
 
         h1 {
-            color: var(--dark-text);
+            color: var(--light-text);
             font-size: 48pt;
             text-align: center;
             margin: 20px 0 0 0;
         }
     
         p {
-            color: var(--dark-text);
+            color: var(--light-text);
             font-size: 20pt;
             text-align: center;
         }
     
         a {
-            color: var(--dark-text);
+            color: var(--light-text);
             font-size: 20pt;
             text-align: center;
             display: block;
             transition: 0.3s;
     
             &:hover {
-                color: var(--dark-subtext);
+                color: var(--light-subtext);
             }
         }
     }
 }
 
+.about-link {
+  background-color: var(--dark-background);
+  color: var(--dark-text) !important;
+  font-family: Merriweather;
+  font-size: 18pt;
+  margin: 8px 0;
+  padding: 1em 0 1em 0;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+
+  &:hover {
+      transform: scale(1.1) !important;
+  }
+  &:active {
+      transform: scale(0.96) !important;
+  }
+
+}
+
 @media screen and (max-width: 700px) {
+
+    h1 {
+      font-size: 32pt !important;
+    }
+
+    .splash-text {
+      p {
+          font-size: 36pt !important;
+      }
+    }
 
     .technology-text {
         height: auto;
+
+        h1 {
+            margin: 50px 0 0 0 !important;
+        }
 
         p {
             font-size: 16pt !important;
         }
 
         a {
-            font-size: 16pt !important;
+            font-size: 18pt !important;
         }
     }
 
@@ -252,7 +397,7 @@
         }
 
         a {
-            font-size: 16pt !important;
+            font-size: 18pt !important;
         }
     }
 
